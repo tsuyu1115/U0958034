@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="mycss.css" type="text/css"?>
+<books>
+<heading>小魔女書坊</heading>
+
+<book>
+<title>魔幻舞台</title>
+<author>doremi</author>
+<publisher>魔女出版社</publisher>
+</book>
+
+<book>
+<title>我愛電腦繪圖</title>
+<author>江紫瑜</author>
+<publisher>聯大出版社</publisher>
+</book>
+</books>
