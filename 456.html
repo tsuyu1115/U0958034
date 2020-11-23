@@ -1,0 +1,50 @@
+<html lang="tw">
+<head>
+                 <meta charset="UTF-8">
+
+                 <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+	<style type="text/css">
+	
+	 p{
+		color:red;
+		margin: 5px;
+		cursor: pointer;
+	 }
+	 p:hover{
+		  background:yellow;
+	 }
+	.cat{
+		position: fixed;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		background: rgba(150,36,0,0.5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	</style>
+
+</head>
+<body>
+	<p>智慧好夥伴</p>
+	<H1>ㄇㄇ</H1>
+<div class="cat">
+	<img src="https://petsmao-media.nownews.com/images/2020/08/3df8fcf3-1597036969-ff4a29566ee703b64426b905bd96112d.jpg">
+</div>
+	<script type="text/javascript">
+	    $('p').click(function(){
+		    $('.cat').slideToggle();
+         });
+	    </script>
+	<script type="text/javascript">
+	    $('img').click(function(){
+		$('.cat').slideToggle();
+         });
+	</script>
+</body>
+</html>
